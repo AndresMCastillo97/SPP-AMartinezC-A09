@@ -19,8 +19,8 @@ public class SPPAMartinezCA09 {
         System.out.println("Sumador de 2 matrices");
     int[][] A, B, R = null;
     int n, m;
-    try{
-        
+   
+     
         n=solicitardato("Introduce el ancho de las matrices");
         m=solicitardato("Introduce el largo de las matrices");
     
@@ -28,9 +28,6 @@ public class SPPAMartinezCA09 {
         B=matriz(n,m,"B");
         
         suma(n,m,A,B);
-    }catch (Exception ex) {
-            
-        }
     
     }
     public static int[][] matriz(int largo,int ancho,String nombre){
